@@ -6,6 +6,6 @@ export const fetchUserPlacesAction = (suffix) => {
         method: 'post',
         suffix,
         fetchSuccessType: FETCH_USER_PLACES_SUCCEEDED,
-        fetchFaildType: FETCH_USER_PLACES_FAILED
+        fetchFailedType: FETCH_USER_PLACES_FAILED
     }
 }

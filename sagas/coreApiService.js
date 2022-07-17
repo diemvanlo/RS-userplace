@@ -11,7 +11,7 @@ axios.interceptors.request.use(async (config) => {
     const jwtToken = await AsyncStorage.getItem('token');
     config.headers = {
         'x-vibe-client-id': 'coral-uk_sdk',
-        'authorization': 'Bearer ' + "om0H9b7crsZob-rSB4qpCqgIH9I"
+        'authorization': 'Bearer ' + "0vyLeRMD6AgPKzyEbdiVQAW2d8k"
     };
     
     return config;
